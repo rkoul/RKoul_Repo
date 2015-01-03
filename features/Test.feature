@@ -12,7 +12,7 @@ Scenario: Location Search for Dominos Pizza
   When I click the "Order Online" tab
   Then I should see the Dominos Location Search page
   When I fill the Address Information form
-  Then I should see the Dominos Entrees page  
+  Then I should see the Entrees page  
 
  
 
