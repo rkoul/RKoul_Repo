@@ -18,9 +18,10 @@ Scenario: Location Search for Dominos Pizza
   And   I click on the Order link 
   And   I click on Add to Order link
   And   I click on Checkout link
-  Then  I should see the Order Checkout page
-  And   I click on Continue Checkout link
+  Then  I should see the generic Overlay
   And   I click on close the dialog box
+  And   I click on Continue Checkout link
   Then  I should see the Place Order page
   And   I Check the quantity of the 'Spinach & Feta' pizza
+  And   I Check the Total Amount
 
